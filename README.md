@@ -1,3 +1,7 @@
+# kindle-clippings-push-to-github
+I will post my Kindle highlights to a repo to follow them as a list, with using forked kindle-clippings repo and the push link below.
+Python GitHub push link: https://stackoverflow.com/questions/50071841/how-to-push-local-files-to-github-using-python-or-post-a-commit-via-python
+
 # kindle-clippings
 
 This script reads the `My Clippings.txt` file, which is stored in the `documents`-folder on a Kindle e-reader, extracts the notes and highlights and stores these as separate text files for each publication (e-book, PDF, etc.) in a clippings directory. These clippings files can then be edited, reorganised and re-ordered within the clippings directory, and only new highlights and notes will be added the next time the script is run. The output files use reStructured Text (RST) formatting, so that they can be easily converted into new e-books, which include metadata on the publications (title, author). Metadata on the notes/highlights (location, date, type, partial SHA256-hash) is written as an RST-comment before each note, so this information can be found in the text files but becomes invisible if they are converted into e-books or other output document types (PDF, word processor files, etc.).
